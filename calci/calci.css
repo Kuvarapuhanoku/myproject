@@ -1,0 +1,70 @@
+.calci{
+    position: relative;
+    left: 560px;
+    top: 10px;
+}
+
+input{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(241, 240, 240, 0.948);
+    border-color: rgb(208, 199, 199);
+    border-radius: 20%;
+    
+}
+.result{
+    background-color: white;
+    width: 300px;
+    height: 42px;
+    border-radius: 10%;
+}
+.clear{
+    height: 48px;
+    background-color: rgb(230, 193, 28);
+}
+h1{
+    position: relative;
+    left: 670px;
+    top: 30px;
+    font-size: 50px;
+}
+
+table{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    background-color:rgb(128, 128, 128);
+    border-radius: 30px;
+}
+
+a button{
+    position: relative;
+    left: 730px;
+    top: 25px;
+    width: 100px;
+    height: 30px;
+    background-color:floralwhite;
+    border-radius: 30px;
+    border-color: gray;
+    box-shadow: 1px 1px 5px;
+}
+
+@media only screen and (max-width:600px){
+    .calci{
+        position: relative;
+        left: 10px;
+    }
+    table{
+        width: 300px;
+        height: 400px;
+    }
+
+    h1{
+        position: relative;
+        left: 100px;
+    }
+    a button{
+        position: relative;
+        left: 170px;
+    }
+}

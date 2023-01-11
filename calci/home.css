@@ -1,0 +1,39 @@
+p{
+    font-family: cursive;
+}
+.p1 p{
+    font-size: 30px;
+    position: relative;
+    left: 350px;
+}
+.p2 p{
+    font-size: 25px;
+    position: relative;
+    left: 500px;
+}
+.calbtn{
+    width: 50px;
+    position: relative;
+    left: 300px;
+    transform: 1s;
+}
+.calbtn:hover{
+    width: 60px;
+}
+
+@media only screen and (max-width:600px){
+    .p1 p{
+        position: relative;
+        left: 20px;
+        font-size: 10px;
+    }
+    .p2 p{
+        position: relative;
+        left: 50px;
+        font-size: 10px;
+    }
+    .calbtn{
+        position: relative;
+        left: 15px;
+    }
+}
